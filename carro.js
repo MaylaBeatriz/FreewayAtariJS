@@ -1,6 +1,6 @@
 //carro
 let xCarro = [700, 10, 800];
-let yCarro = [40, 95, 150];
+let yCarro = [40, 96, 150];
 let velocidadeCarro = [2, 2.5, 3.2];
 
 //carro 1
@@ -31,5 +31,11 @@ function movimentaCarro(){
 function voltaPosicaoInicialCarro(){
     if (xCarro[0] < -70){
         xCarro[0] = 700;
+    }
+    if (xCarro[1] > 800){
+        xCarro[1] = -70;
+    }
+    if (xCarro[2] < -70){
+        xCarro[2] = 600;
     }
 }
