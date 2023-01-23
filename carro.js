@@ -17,9 +17,9 @@ let alturaCarro3 = 40;
 
 
 function mostraCarro(){
-    image(imagemDoCarro1, xCarro[0], yCarro[0], larguraCarro1, alturaCarro1);
-    image(imagemDoCarro2, xCarro[1], yCarro[1], larguraCarro2, alturaCarro2);
-    image(imagemDoCarro3, xCarro[2], yCarro[2], larguraCarro3, alturaCarro3);
+    image(imagemCarros[0], xCarro[0], yCarro[0], larguraCarro1, alturaCarro1);
+    image(imagemCarros[1], xCarro[1], yCarro[1], larguraCarro2, alturaCarro2);
+    image(imagemCarros[2], xCarro[2], yCarro[2], larguraCarro3, alturaCarro3);
 }  
   
 function movimentaCarro(){
