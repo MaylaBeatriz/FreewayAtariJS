@@ -37,6 +37,7 @@ function verificaColisao(){
         if (colisao){
             voltaAtorPosicaoInicial();
             if (pontosMaiorQueZero()) {
+                somDaColisao.play();
                 meusPontos -= 1;
             }
         }
